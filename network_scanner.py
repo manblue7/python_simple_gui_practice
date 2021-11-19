@@ -22,7 +22,3 @@ def print_result(results):
     print('IP\t\tMAC Address')
     for i in results:
         print(i['ip'] + "\t\t" + i['mac'])
-
-options = getArgs()
-scan_result = scan(options.target)
-print_result(scan_result)
